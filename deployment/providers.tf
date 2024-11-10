@@ -7,9 +7,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "wisdom.com"
+    bucket = "<your-s3-bucket-name>"
     key    = "dev/terraform.tfstate"
-    region = "us-east-2"
+    region = "<your-region>"
   }
 }
 
