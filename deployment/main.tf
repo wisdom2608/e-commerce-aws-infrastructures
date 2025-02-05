@@ -91,13 +91,3 @@ module "vpc_endpoint" {
   public-route_table_id = module.vpc.public-route_table_id
   environment           = module.vpc.environment
 }
-
-
-# output "output" {
-#  value = module.alb.dns_name
-#  value = module.compute.webserver-1.public_ip
-#  value = module.compute.webserver-2.public_ip
-#  value = module.compute.appserver-1.private_ip
-#  value = module.compute.appserver-2.private_ip
-#  value = module.rds.aws_db_instance.dev-db.endpoint
-# }
